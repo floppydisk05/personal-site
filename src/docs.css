@@ -1,0 +1,74 @@
+body {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.navlink {
+    text-decoration: none;
+}
+
+a.navlink:hover {
+    text-decoration: underline;
+}
+
+a.navlink:visited {
+    color: #000000;
+}
+
+a.navlink:link {
+    color: #000000;
+}
+
+p.projectlang {
+    font-size: smaller;
+    line-height: 5px;
+}
+
+.projectmain {
+    line-height: 5px;
+}
+
+div.tree {
+    line-height: 0px;
+}
+
+ul.tree, ul.tree ul {
+    list-style: none;
+     margin: 0;
+     padding: 0;
+   } 
+   ul.tree ul {
+     margin-left: 10px;
+   }
+   ul.tree li {
+     margin: 0;
+     padding: 0 7px;
+     line-height: 20px;
+     /* color: #369; */
+     color: #000000;
+     font-weight: normal;
+     border-left:1px solid rgb(100,100,100);
+
+   }
+   ul.tree li:last-child {
+       border-left:none;
+   }
+   ul.tree li:before {
+      position:relative;
+      top:-0.3em;
+      height:1em;
+      width:12px;
+      color:white;
+      border-bottom:1px solid rgb(100,100,100);
+      content:"";
+      display:inline-block;
+      left:-7px;
+   }
+   ul.tree li:last-child:before {
+      border-left:1px solid rgb(100,100,100);   
+   }
